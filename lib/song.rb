@@ -17,8 +17,6 @@ def new
   @name = name
   @artist = artist
   @genre = genre
-
-  @@names << name.self
   @@artists << artist.self
   @@genres << genre.self
 end
