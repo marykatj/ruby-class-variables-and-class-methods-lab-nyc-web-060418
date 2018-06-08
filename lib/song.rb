@@ -6,13 +6,13 @@ attr_reader :name, :artist, :genre
 @@artists = []
 @@genres = []
 
-def initialize(name, artist, genre)
+def new(name, artist, genre)
   @song = name
   @artist = artist
   @genre = genre
-  @@songs << song.self
-  @@artists << artist.self
-  @@genres << genre.self
+  #@@songs << song.self
+  #@@artists << artist.self
+  #@@genres << genre.self
 end
 
 def count
