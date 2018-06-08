@@ -19,6 +19,14 @@ def name
   @song
 end
 
+def artist
+  @artist
+end
+
+def genre
+  @genre
+end
+
 def count
   @@songs.length
 end
