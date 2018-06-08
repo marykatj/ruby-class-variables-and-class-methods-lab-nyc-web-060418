@@ -27,6 +27,8 @@ def genres
 end
 
 def genre_count
+  genre_hash = {}
+
 end
 
 end
