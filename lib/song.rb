@@ -15,6 +15,10 @@ def initialize(name, artist, genre)
   @@genre << self
 end
 
+def artists_array
+  @@artists << artist.all
+end
+
 def self.count
   @@count
 end
