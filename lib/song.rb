@@ -28,7 +28,7 @@ end
 
 def genre_count
   genre_hash = {}
-
+  genre.self
 end
 
 end
