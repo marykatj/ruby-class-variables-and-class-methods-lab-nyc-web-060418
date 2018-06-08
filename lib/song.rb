@@ -11,14 +11,14 @@ def initialize(name, artist, genre)
   @artist = artist
   @genre = genre
   @@count += 1
-  @@artists << artist.self
-  @@genres << genre.self
 end
 
 def new
   @name = name
   @artist = artist
   @genre = genre
+  @@artists << artist.self
+  @@genres << genre.self
 end
 
 def name
