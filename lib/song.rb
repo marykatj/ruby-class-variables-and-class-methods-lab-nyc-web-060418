@@ -6,6 +6,8 @@ attr_accessor :name, :artist, :genre
 @@artists = []
 @@genres = []
 
+
+
 def new
   @name = name
   @artist = artist
