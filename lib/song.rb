@@ -6,7 +6,14 @@ attr_accessor :name, :artist, :genre
 @@artists = []
 @@genres = []
 
-
+def initialize(name, artist, genre)
+  @name = name
+  @artist = artist
+  @genre = genre
+  #@@songs << song.self
+  #@@artists << artist.self
+  #@@genres << genre.self
+end
 
 def new
   @name = name
