@@ -2,12 +2,12 @@ class Song
 
 attr_reader :name, :artist, :genre
 
-@@songs = []
+@@names = []
 @@artists = []
 @@genres = []
 
 def new(name, artist, genre)
-  @song = name
+  @name = name
   @artist = artist
   @genre = genre
   #@@songs << song.self
@@ -16,7 +16,7 @@ def new(name, artist, genre)
 end
 
 def name
-  @song
+  @name
 end
 
 def artist
