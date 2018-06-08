@@ -10,9 +10,9 @@ def initialize(name, artist, genre)
   @name = name
   @artist = artist
   @genre = genre
-  @@names << name.self
-  @@artists << artist.self
-  @@genres << genre.self
+  #@@names << name.self
+  #@@artists << artist.self
+  #@@genres << genre.self
 end
 
 def new
