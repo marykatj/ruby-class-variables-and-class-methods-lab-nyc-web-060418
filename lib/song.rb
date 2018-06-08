@@ -21,7 +21,7 @@ def new
   @@genres << genre.self
 end
 
-def self.count 
+def self.count
   @@count
 end
 
