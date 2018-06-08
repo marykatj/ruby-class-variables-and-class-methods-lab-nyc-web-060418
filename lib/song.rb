@@ -15,6 +15,10 @@ def new(name, artist, genre)
   #@@genres << genre.self
 end
 
+def name
+  @song
+end
+
 def count
   @@songs.length
 end
