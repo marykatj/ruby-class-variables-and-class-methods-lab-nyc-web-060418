@@ -45,7 +45,7 @@ def self.genres
   @@genres.uniq
 end
 
-def genre_count
+def self.genre_count
   genre_hash = {}
   @@genres.each {|genre| genre_hash[genre] += 1}
   return genre_hash
