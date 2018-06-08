@@ -26,5 +26,7 @@ def genres
   @@genres.uniq
 end
 
+def genre_count
+end
 
 end
