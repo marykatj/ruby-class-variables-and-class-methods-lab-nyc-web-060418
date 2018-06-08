@@ -17,8 +17,8 @@ def new
   @name = name
   @artist = artist
   @genre = genre
-  @@artists << artist.self
-  @@genres << genre.self
+  @@artists << self
+  @@genres << self
 end
 
 def self.count
