@@ -10,18 +10,15 @@ def initialize(name, artist, genre)
   @name = name
   @artist = artist
   @genre = genre
-  #@@songs << song.self
-  #@@artists << artist.self
-  #@@genres << genre.self
+  @@songs << song.self
+  @@artists << artist.self
+  @@genres << genre.self
 end
 
 def new
   @name = name
   @artist = artist
   @genre = genre
-  #@@songs << song.self
-  #@@artists << artist.self
-  #@@genres << genre.self
 end
 
 def name
